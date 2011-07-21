@@ -8,7 +8,7 @@ class Server : public QObject
     Q_OBJECT
 
 public:
-    Server();
+    Server(int port = 27015);
 
 private slots:
     void sendReply();

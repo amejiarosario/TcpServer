@@ -1,9 +1,11 @@
 #include<iostream>
+#include <stdlib.h>
+#include <QtNetwork>
 #include<QtNetwork/QNetworkInterface>
 
 #include "Server.h"
 
-Server::Server()
+Server::Server(int port)
 {
     tcpServer = new QTcpServer(this);
 
@@ -22,7 +24,7 @@ Server::Server()
 
 
     //QTcpServer::listen() to set up a QTcpServer to listen on all addresses, on an arbitrary port.
-    if (!tcpServer->listen(QHostAddress(ipAddress), 27015)) {
+    if (!tcpServer->listen(QHostAddress(ipAddress), port)) {
         std::cout << "Unable to start the server: "
                   << tcpServer->errorString().toStdString();
         //close();
@@ -44,7 +46,29 @@ Server::Server()
 void Server::sendReply()
 {
     std::cout << "Server::sendReply()\n";
+
     // @see http://doc.qt.nokia.com/latest/network-fortuneserver.html
+    //*
+    QByteArray block;
+    QDataStream out(&block, QIODevice::WriteOnly);
+    out.setVersion(QDataStream::Qt_4_0);
+//! [4] //! [6]
+    out << (quint16)0;
+    out << tr("Reply from server");
+    out.device()->seek(0);
+    out << (quint16)(block.size() - sizeof(quint16));
+//! [6] //! [7]
+    //*/
+
+    QTcpSocket *clientConnection = tcpServer->nextPendingConnection();
+    connect(clientConnection, SIGNAL(disconnected()),
+            clientConnection, SLOT(deleteLater()));
+//! [7] //! [8]
+
+    clientConnection->write(block);
+    //clientConnection->write(block);
+    clientConnection->disconnectFromHost();
+
     return;
 }
 
