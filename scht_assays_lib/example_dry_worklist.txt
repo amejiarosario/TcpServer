@@ -1,0 +1,64 @@
+Showing worklist 1/1 
+PrintWorklist: [Sched worklist]: Worklist type = Non-MicroWell
+PrintWorklist: [Sched worklist]: 
+	CupPosition: 6, SampleName: , Tray: F3, lSampleProgramID=219, ResultID: 293, CalGroup: -1, CalBottle: -1
+	TubeDiam: 0, CupType: 2, Sched Priority: 0, MetPos: 94, lAspVol: 8500, lQtipVol: 3000,
+	Num Wet/Dry Dils: 0, Num Unique Dry Dils: 0 
+	NumReps: 6, Num unstarted wet reps 0, Num unstarted Mwell reps 0, Num unstarted slide reps 28
+	PrimaryTipType: 0  eBodyFluid: 5   Sample Integrity: SI REQUIRED  bPrimMetMixSampBeforeAsp: F
+PrintWorklist: [Sched worklist]:  (axReps[0]) --------------- 
+	ABFModule: 1, lAssayNum: 309, RepSeqNum: 0, DilIndex: -1, ProtocolGroup: 0, AliqExp: Expanded 450, Target 450, Fail 450, DilExp: 0, AsyMetPriority: 30000, CalLevel: -1
+PrintWorklist: [Sched worklist]: (xDryRep) 
+	AssayModel: 2, SoNum: 42, MetRule: 0, NumSteps: 2  lNumSoNumsToFollow: 0  asSoNumsToFollow[]: 
+	lNumTestsContam: 0  lNumDecontamTests: 0
+PrintWorklist: [Sched worklist]: WlDrySteps (xReagStep) Sup: 1, Slot: 39
+PrintWorklist: [Sched worklist]: WlDrySteps (xSampStep) ePrimSpotPos 18,  lDelayPmCycles 0DispVol 1000 RefAspVol 1000 RefDispVol 1000 lNumMixesCycles 0
+PrintWorklist: [Sched worklist]:  (axReps[1]) --------------- 
+	ABFModule: 1, lAssayNum: 310, RepSeqNum: 0, DilIndex: -1, ProtocolGroup: 0, AliqExp: Expanded 450, Target 450, Fail 450, DilExp: 0, AsyMetPriority: 30, CalLevel: -1
+PrintWorklist: [Sched worklist]: (xDryRep) 
+	AssayModel: 0, SoNum: 57, MetRule: 0, NumSteps: 4  lNumSoNumsToFollow: 0  asSoNumsToFollow[]: 
+	lNumTestsContam: 0  lNumDecontamTests: 1
+	 axDecontaminates[ 0] = { sSO: 10 }
+PrintWorklist: [Sched worklist]: WlDrySteps (xReagStep) Sup: 2, Slot: 19
+PrintWorklist: [Sched worklist]: WlDrySteps (xSampStep) ePrimSpotPos 17,  lDelayPmCycles 0DispVol 600 RefAspVol 0 RefDispVol 0 lNumMixesCycles 0
+PrintWorklist: [Sched worklist]: WlDrySteps (xIncStep) InsBlade 2 IncPos 4 DumpBlade 1
+PrintWorklist: [Sched worklist]: WlDrySteps (xReadStep) NumReads 34 eReadType 2 alFilterSlots[] =  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  0,  0, 
+PrintWorklist: [Sched worklist]:  (axReps[2]) --------------- 
+	ABFModule: 1, lAssayNum: 317, RepSeqNum: 0, DilIndex: -1, ProtocolGroup: 0, AliqExp: Expanded 450, Target 450, Fail 450, DilExp: 0, AsyMetPriority: 30000, CalLevel: -1
+PrintWorklist: [Sched worklist]: (xDryRep) 
+	AssayModel: 6, SoNum: 2, MetRule: 0, NumSteps: 4  lNumSoNumsToFollow: 0  asSoNumsToFollow[]: 
+	lNumTestsContam: 0  lNumDecontamTests: 0
+PrintWorklist: [Sched worklist]: WlDrySteps (xReagStep) Sup: 1, Slot: 0
+PrintWorklist: [Sched worklist]: WlDrySteps (xSampStep) ePrimSpotPos 17,  lDelayPmCycles 0DispVol 1000 RefAspVol 0 RefDispVol 0 lNumMixesCycles 0
+PrintWorklist: [Sched worklist]: WlDrySteps (xIncStep) InsBlade 1 IncPos 3 DumpBlade 0
+PrintWorklist: [Sched worklist]: WlDrySteps (xReadStep) NumReads 32 eReadType 2 alFilterSlots[] =  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  2,  1,  2,  1,  2,  1, 
+PrintWorklist: [Sched worklist]:  (axReps[3]) --------------- 
+	ABFModule: 1, lAssayNum: 320, RepSeqNum: 0, DilIndex: -1, ProtocolGroup: 0, AliqExp: Expanded 450, Target 450, Fail 450, DilExp: 0, AsyMetPriority: 30000, CalLevel: -1
+PrintWorklist: [Sched worklist]: (xDryRep) 
+	AssayModel: 5, SoNum: 73, MetRule: 0, NumSteps: 4  lNumSoNumsToFollow: 0  asSoNumsToFollow[]: 
+	lNumTestsContam: 0  lNumDecontamTests: 0
+PrintWorklist: [Sched worklist]: WlDrySteps (xReagStep) Sup: 2, Slot: 16
+PrintWorklist: [Sched worklist]: WlDrySteps (xSampStep) ePrimSpotPos 17,  lDelayPmCycles 0DispVol 700 RefAspVol 0 RefDispVol 0 lNumMixesCycles 0
+PrintWorklist: [Sched worklist]: WlDrySteps (xIncStep) InsBlade 1 IncPos 3 DumpBlade 0
+PrintWorklist: [Sched worklist]: WlDrySteps (xReadStep) NumReads 32 eReadType 2 alFilterSlots[] =  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6, 
+PrintWorklist: [Sched worklist]:  (axReps[4]) --------------- 
+	ABFModule: 1, lAssayNum: 321, RepSeqNum: 0, DilIndex: -1, ProtocolGroup: 0, AliqExp: Expanded 450, Target 450, Fail 450, DilExp: 0, AsyMetPriority: 30000, CalLevel: -1
+PrintWorklist: [Sched worklist]: (xDryRep) 
+	AssayModel: 5, SoNum: 65, MetRule: 0, NumSteps: 4  lNumSoNumsToFollow: 0  asSoNumsToFollow[]: 
+	lNumTestsContam: 0  lNumDecontamTests: 0
+PrintWorklist: [Sched worklist]: WlDrySteps (xReagStep) Sup: 2, Slot: 7
+PrintWorklist: [Sched worklist]: WlDrySteps (xSampStep) ePrimSpotPos 17,  lDelayPmCycles 0DispVol 1100 RefAspVol 0 RefDispVol 0 lNumMixesCycles 0
+PrintWorklist: [Sched worklist]: WlDrySteps (xIncStep) InsBlade 1 IncPos 3 DumpBlade 0
+PrintWorklist: [Sched worklist]: WlDrySteps (xReadStep) NumReads 32 eReadType 2 alFilterSlots[] =  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1, 
+PrintWorklist: [Sched worklist]:  (axReps[5]) --------------- 
+	ABFModule: 1, lAssayNum: 345, RepSeqNum: 0, DilIndex: -1, ProtocolGroup: 0, AliqExp: Expanded 450, Target 450, Fail 450, DilExp: 0, AsyMetPriority: 30000, CalLevel: -1
+PrintWorklist: [Sched worklist]: (xDryRep) 
+	AssayModel: 8, SoNum: 39, MetRule: 0, NumSteps: 5  lNumSoNumsToFollow: 0  asSoNumsToFollow[]: 
+	lNumTestsContam: 1  lNumDecontamTests: 0
+	 axContaminatesFor[ 0] = { sSO: 49  lMinPmCyclesToContam: 7  lNumPmCyclesContam: 32 }
+PrintWorklist: [Sched worklist]: WlDrySteps (xReagStep) Sup: 1, Slot: 12
+PrintWorklist: [Sched worklist]: WlDrySteps (xSampStep) ePrimSpotPos 17,  lDelayPmCycles 0DispVol 1100 RefAspVol 0 RefDispVol 0 lNumMixesCycles 0
+PrintWorklist: [Sched worklist]: WlDrySteps (xIncStep) InsBlade 2 IncPos 4 DumpBlade 0
+PrintWorklist: [Sched worklist]: WlDrySteps (xWashStep) Fluid 1 Spot 2 CmCycles x AspVol 1201 DispVol 1201 sMixingProfileCycles 0 
+PrintWorklist: [Sched worklist]: WlDrySteps (xReadStep) NumReads 18 eReadType 2 alFilterSlots[] =  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  6,  3,  6,  3, 
+PrintWorklist: [Sched worklist]: (xQtipPretreat)  bQtipPretreatReqd: FALSE
